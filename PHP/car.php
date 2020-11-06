@@ -1,6 +1,8 @@
 <?php
+
 require_once('account.php');
-class Car {
+
+class Car{
     public $id;
     public $license;
     public $driver;
