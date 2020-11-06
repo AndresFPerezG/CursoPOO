@@ -6,7 +6,8 @@ from car import Car
 
 if __name__ == "__main__":
 
-    """ creamos un nuevo objeto de car """
+    """ creamos un nuevo objeto de car 
+    Car() -> es el método constructor de python """
     car = Car()
     car.license = "AMS654"
     car.driver = "Andrés Herrera"

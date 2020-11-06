@@ -1,8 +1,12 @@
 class Car{
-    constructor(id, license, driver, passanger){
-        this.id = id
+    constructor(license, driver){
         this.license = license
         this.driver = driver
-        this.passanger = passanger
     }
+
+    printDataCar(){
+        var {license, driver} = this
+        console.log(`EL conductor se llama: ${driver.name} con documento # ${driver.document} y la licensia es: ${license}`)
+    }
+
 }
