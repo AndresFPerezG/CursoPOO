@@ -24,6 +24,11 @@ class Main {
                 "Sentra");
         uberX2.setPassenger(4);
         uberX2.printDataCar();
+
+        UberVan uberVan1 = new UberVan("QIR789", new Driver(28, "Mario Herrera", "3649", "u@b.com", "1876"), "song", "B1");
+        uberVan1.setPassenger(6);
+        uberVan1.printDataCar();
+        
         
         
     }
