@@ -16,11 +16,11 @@ class Main {
         al nuevo objeto (license, driver(se crea el nuevo conductor 
         con los datos requeridos para la clase Account))
         */
-        Car car = new Car("AMQ123", new Account("Andrés Pérez", "1128418478"));
+        Car car = new Car("AMQ123", new User(30, "Andrés Pérez", "112841", "a@a.com", "1234"));
         car.passangers = 4;
         car.printDataCar();
 
-        Car car2 = new Car("QIR789", new Account("Andrea Herrera", "1015425993"));
+        Car car2 = new Car("QIR789", new Driver(29, "Andrea Herrera", "101542", "b@b.com", "9876"));
         car2.passangers = 4;
         car2.printDataCar();
         

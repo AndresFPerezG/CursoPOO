@@ -7,16 +7,12 @@ class Car {
         this.passenger;
     }
 
-    /* printDataCar() {
-        console.log(this.driver)
-        console.log(this.driver.name)
-        console.log(this.driver.document)
-    } */
-
-    printDataCar(){
-        var {license, driver} = this
-        console.log(`EL conductor se llama: ${driver.name} con documento # ${driver.document} y la licensia es: ${license}`)
-        
+    printDataCar() {
+        console.log(`Nombre del conductor: ${this.driver.name}`)
+        console.log(`Documento del conductor: ${this.driver.document}`)
+        console.log(`Correo del conductor: ${this.driver.email}`)
+        console.log(`Marca de Uber: ${this.brand}`)
+        console.log(`Modelo del Uber: ${this.model}`)
     }
     
 }
