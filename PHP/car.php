@@ -1,6 +1,7 @@
 <?php
 
 require_once('account.php');
+require_once('uberX.php');
 
 class Car{
     public $id;
@@ -14,7 +15,8 @@ class Car{
     }
 
     public function printDataCar() {
-        echo "Licencia: $this->license Driver: ".$this->driver->name;
+        echo " Licencia: $this->license | Driver: ".$this->driver->name;
+        echo " | Marca: $this->brand | Modelo: $this->model | ";
     }
 }
 ?>

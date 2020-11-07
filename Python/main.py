@@ -19,6 +19,7 @@ se le pasa el objeto como parámetro e imprime sus datos.
 
 from car import Car
 from account import Account
+from UberX import UberX
 
 if __name__ == "__main__":
    
@@ -29,3 +30,7 @@ if __name__ == "__main__":
     car2 = Car("KLJ652", Account("Martha Contreras", "369852"))
     print(vars(car2))
     print(vars(car2.driver))
+
+    uberX1 = UberX("GHJ654", Account("Adrea", "654987"), "Tesla", "Model S+")
+    print(vars(uberX1.driver))
+    print(vars(uberX1))
