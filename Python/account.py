@@ -7,6 +7,9 @@ class Account:
     password = int
 
     """ Método constructor de la clase """
-    def __init__(self, name, document):
+    def __init__(self, id, name, document, email, password):
+        self.id         = id
         self.name       = name
         self.document   = document    
+        self.email      = email
+        self.password   = password
