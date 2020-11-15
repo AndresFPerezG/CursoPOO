@@ -4,7 +4,7 @@ class Car {
     private Integer id;
     private String license;
     private Account driver; //En la clase account, se creó la clase de la cual se deriva el conductor por eso se pone con ese tipo de dato
-    private Integer passenger;
+    protected Integer passenger;
 
     /*Método constructor de la clase
     Entre parentesis van los atributos obligatorios de la clase
@@ -17,8 +17,10 @@ class Car {
 
     //Metodo para imprimir los datos de la clase
     void printDataCar(){
-      
-        System.out.println("License: " + license + " Driver: " + driver.name + " Pasajeros permitidos: " + passenger);
+        if(passenger != null){
+            System.out.println("License: " + license + " Driver: " + driver.name + " Pasajeros permitidos: " + passenger);
+        }
+        
         
     }
 

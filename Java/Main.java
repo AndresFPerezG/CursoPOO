@@ -20,16 +20,13 @@ class Main {
         uberX.setPassenger(4);
         uberX.printDataCar();
 
-        UberX uberX2 = new UberX("QIR789", new Driver(29, "Andrea Herrera", "101542", "b@b.com", "9876"), "Crevrolet",
-                "Sentra");
+        UberX uberX2 = new UberX("QIR789", new Driver(29, "Andrea Herrera", "101542", "b@b.com", "9876"), "Crevrolet", "Sentra");
         uberX2.setPassenger(4);
         uberX2.printDataCar();
 
-        UberVan uberVan1 = new UberVan("QIR789", new Driver(28, "Mario Herrera", "3649", "u@b.com", "1876"), "song", "B1");
-        uberVan1.setPassenger(6);
-        uberVan1.printDataCar();
-        
-        
+        UberVan uberVan = new UberVan("QIR789", new Driver(28, "Mario Herrera", "3649", "u@b.com", "1876"), "song", "B1");
+        uberVan.setPassenger(6);
+        uberVan.printDataCar();
         
     }
 }
